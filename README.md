@@ -1,17 +1,28 @@
-## Project setup
-```
-yarn install
+# docs
+https://databendcloud.github.io/databend-logos/
+
+# Usage
+
+## Two ways to use it
+
+## 1.Package
+```ts
+yarn add databend-vue-logos
+
+import { LightDatabendHorizontalSvg } from 'databend-vue-logos';
+
+<LightDatabendHorizontalSvg width={200}/>
+
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 2.Define Yourself
 
-### Compiles and minifies for production
-```
-yarn build
-```
+<a href="https://databendcloud.github.io/databend-logos/components/all-assets">Download Zip</a>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# LICENSE
+
+MIT
+
+# react infra
+https://www.npmjs.com/package/databend-logos
+

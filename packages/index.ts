@@ -1,12 +1,14 @@
 import { App } from 'vue'
 import NdButton from './button'
-const components = [ NdButton ]
+import LightDatabendCloudHorizontalSvg from './light-databend-cloudHorizontal-svg'
+const components = [ NdButton, LightDatabendCloudHorizontalSvg ]
 const install = (app: App): void => {
-    components.map((component) => app.component(component.name, component))
+  components.map((component) => app.component(component.name, component))
 }
 
 export {
-    NdButton
+  NdButton,
+  LightDatabendCloudHorizontalSvg
 }
 
 export default {

@@ -1,6 +1,6 @@
 {
   "name": "databend-vue-logos",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "Databend Cloud Logos",
   "main": "lib/index.min.js",

@@ -26,6 +26,7 @@
     "build:esm-bundle": "rollup --config ./build/rollup.config.js"
   },
   "dependencies": {
+    "@achrinza/node-ipc": "^10.1.9",
     "core-js": "^3.6.5",
     "vue": "^3.3.4"
   },

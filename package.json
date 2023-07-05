@@ -1,20 +1,20 @@
 {
-  "name": "nandit-vue-vant",
-  "version": "0.1.2",
+  "name": "databend-vue-logos",
+  "version": "0.0.1",
   "private": false,
-  "description": "基于vue3+vant的前端组件库",
+  "description": "Databend Cloud Logos",
   "main": "lib/index.min.js",
   "module": "lib/index.esm.js",
   "typings": "lib/index.d.ts",
-  "keyword": "vue3 vant",
+  "keyword": "vue3 databend databendcloud databendlogos",
   "license": "MIT",
   "author": {
-    "name": "jiuage",
-    "email": "nandit@126.com"
+    "name": "databend",
+    "email": "hi@datafuselabs.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/jiuage/nandit-vue-vant.git"
+    "url": "https://github.com/databendcloud/databend-vue-logos"
   },
   "scripts": {
     "serve": "vue-cli-service serve",

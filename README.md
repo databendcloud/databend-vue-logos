@@ -7,9 +7,9 @@ https://databendcloud.github.io/databend-logos/
 
 ## 1.Package
 ```ts
-yarn add databend-vue-logos
+yarn add databend-vue-logos // react: databend-logos
 
-import { LightDatabendHorizontalSvg } from 'databend-vue-logos';
+import { LightDatabendHorizontalSvg } from 'databend-vue-logos'; // react: databend-logos
 
 <LightDatabendHorizontalSvg width={200}/>
 

@@ -36,7 +36,7 @@ import {
   LightDatabendLabsHorizontalPng,
   LightDatabendLabsVerticalPng
 } from './databend-labs';
-import { OpenDalPng, OpenDalSvg } from './open-dal';
+// import { OpenDalPng, OpenDalSvg } from './open-dal';
 const components = [ 
   DarkDatabendSingleSvg,
   LightDatabendHorizontalSvg,
@@ -69,7 +69,7 @@ const components = [
   DarkDatabendLabsVerticalPng,
   LightDatabendLabsHorizontalPng,
   LightDatabendLabsVerticalPng,
-  OpenDalPng, OpenDalSvg
+  // OpenDalPng, OpenDalSvg
 ]
 const install = (app: App): void => {
   components.map((component) => app.component(component.name, component))
@@ -106,7 +106,7 @@ export {
   DarkDatabendLabsVerticalPng,
   LightDatabendLabsHorizontalPng,
   LightDatabendLabsVerticalPng,
-  OpenDalPng, OpenDalSvg
+  // OpenDalPng, OpenDalSvg
 }
 
 export default {

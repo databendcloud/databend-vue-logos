@@ -7,7 +7,7 @@ OpenDalPng.install = (app: App): void => {
 }
 
 OpenDalSvg.install = (app: App): void => {
-  app.component(OpenDalSvg.name, OpenDalPng)
+  app.component(OpenDalSvg.name, OpenDalSvg)
 }
 
 export  {

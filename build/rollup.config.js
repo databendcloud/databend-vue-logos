@@ -1,5 +1,6 @@
 // import vue from 'rollup-plugin-vue'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
+import url from 'rollup-plugin-url'
 import path from 'path'
 // import commonjs from '@rollup/plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
@@ -26,6 +27,11 @@ export default [
         target: 'browser',
         css: false,
         exposeFilename: false,
+      }),
+      url({
+        include: ["**/*.png", "**/*.jpg", "**/*.jpeg"],
+        limit: Infinity,
+        emitFiles: true,
       }),
       typescript({
         tsconfigOverride: {

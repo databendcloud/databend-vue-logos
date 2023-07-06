@@ -28,6 +28,7 @@
   "dependencies": {
     "@achrinza/node-ipc": "^10.1.9",
     "core-js": "^3.6.5",
+    "rollup-plugin-url": "^3.0.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {

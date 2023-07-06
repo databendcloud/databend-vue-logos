@@ -1,8 +1,40 @@
 <template>
   <div>
-    <div>test</div>
-    <div>{{ count }}</div>
-    <light-databend-cloudHorizontal-svg width="200"></light-databend-cloudHorizontal-svg>
+    <div style="background: #009688;padding: 20px;">
+      <DarkDatabendSingleSvg></DarkDatabendSingleSvg>
+      <DarkDatabendHorizontalSvg></DarkDatabendHorizontalSvg>
+      <LightDatabendHorizontalSvg></LightDatabendHorizontalSvg>
+      <DarkDatabendVerticalSvg></DarkDatabendVerticalSvg>
+      <LightDatabendVerticalSvg></LightDatabendVerticalSvg>
+      <DarkDatabendHorizontalPng></DarkDatabendHorizontalPng>
+      <DarkDatabendVerticalPng></DarkDatabendVerticalPng>
+      <DarkDatabendSinglePng></DarkDatabendSinglePng>
+      <LightDatabendHorizontalPng></LightDatabendHorizontalPng>
+      <LightDatabendVerticalPng></LightDatabendVerticalPng>
+      <LightDatabendSinglePng></LightDatabendSinglePng>
+      <DarkDatabendCloudSingleSvg></DarkDatabendCloudSingleSvg>
+      <DarkDatabendCloudHorizontalSvg></DarkDatabendCloudHorizontalSvg>
+      <LightDatabendCloudHorizontalSvg></LightDatabendCloudHorizontalSvg>
+      <DarkDatabendCloudVerticalSvg></DarkDatabendCloudVerticalSvg>
+      <LightDatabendCloudSingleSvg></LightDatabendCloudSingleSvg>
+      <DarkDatabendCloudHorizontalPng></DarkDatabendCloudHorizontalPng>
+      <DarkDatabendCloudVerticalPng></DarkDatabendCloudVerticalPng>
+      <DarkDatabendCloudSinglePng></DarkDatabendCloudSinglePng>
+      <LightDatabendCloudHorizontalPng></LightDatabendCloudHorizontalPng>
+      <LightDatabendCloudVerticalPng></LightDatabendCloudVerticalPng>
+      <LightDatabendCloudSinglePng></LightDatabendCloudSinglePng>
+      <DarkDatabendLabsHorizontalSvg></DarkDatabendLabsHorizontalSvg>
+      <LightDatabendLabsHorizontalSvg></LightDatabendLabsHorizontalSvg>
+      <DarkDatabendLabsVerticalSvg></DarkDatabendLabsVerticalSvg>
+      <LightDatabendLabsVerticalSvg></LightDatabendLabsVerticalSvg>
+      <DarkDatabendLabsHorizontalPng></DarkDatabendLabsHorizontalPng>
+      <DarkDatabendLabsVerticalPng></DarkDatabendLabsVerticalPng>
+      <LightDatabendLabsHorizontalPng></LightDatabendLabsHorizontalPng>
+      <LightDatabendLabsVerticalPng></LightDatabendLabsVerticalPng>
+      <OpenDalPng></OpenDalPng>
+      <LightDatabendVerticalPng></LightDatabendVerticalPng>
+      <OpenDalSvg></OpenDalSvg>
+    </div>
   </div>
 </template>
 
@@ -26,6 +58,6 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 </style>

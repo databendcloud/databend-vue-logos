@@ -1,5 +1,5 @@
 import { App } from 'vue'
-import OpenDalPng from './png.vue';
+import OpenDalPng from './opng.vue';
 import OpenDalSvg from './svg.vue';
 
 OpenDalPng.install = (app: App): void => {

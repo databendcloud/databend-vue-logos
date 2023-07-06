@@ -1,6 +1,6 @@
 {
   "name": "databend-vue-logos",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "Databend Cloud Logos",
   "main": "lib/index.min.js",
@@ -29,6 +29,7 @@
     "@achrinza/node-ipc": "^10.1.9",
     "core-js": "^3.6.5",
     "rollup-plugin-url": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {

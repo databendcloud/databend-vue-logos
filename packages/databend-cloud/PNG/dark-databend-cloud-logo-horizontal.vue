@@ -11,7 +11,7 @@ export default defineComponent({
   name: "DarkDatabendCloudHorizontalPng",
   props: {
     width: {
-      type: Number,
+      type: [Number, String],
       default: 300
     }
   }

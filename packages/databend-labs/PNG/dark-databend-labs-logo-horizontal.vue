@@ -10,7 +10,7 @@ export default defineComponent({
   name: "DarkDatabendLabsHorizontalPng",
   props: {
     width: {
-      type: Number,
+      type: [Number, String],
       default: 300
     }
   }

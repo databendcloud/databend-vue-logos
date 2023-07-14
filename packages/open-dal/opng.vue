@@ -7,7 +7,7 @@ export default defineComponent({
   name: "OpenDalPng",
   props: {
     width: {
-      type: Number,
+      type: [Number, String],
       default: 300
     }
   }

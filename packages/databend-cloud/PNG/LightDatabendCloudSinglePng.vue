@@ -10,7 +10,7 @@ export default defineComponent({
   name: "LightDatabendCloudSinglePng",
   props: {
     width: {
-      type: Number,
+      type: [Number, String],
       default: 200
     }
   }

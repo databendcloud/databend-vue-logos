@@ -9,7 +9,7 @@ export default defineComponent({
   name: "LightDatabendSinglePng",
   props: {
     width: {
-      type: Number,
+      type: [Number, String],
       default: 300
     }
   }

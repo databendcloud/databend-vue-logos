@@ -1,9 +1,9 @@
 <template>
   <div>
     <div style="background: #009688;padding: 20px;">
-      <DarkDatabendSingleSvg></DarkDatabendSingleSvg>
-      <DarkDatabendHorizontalSvg></DarkDatabendHorizontalSvg>
-      <LightDatabendHorizontalSvg></LightDatabendHorizontalSvg>
+      <DarkDatabendSingleSvg width="200px"></DarkDatabendSingleSvg>
+      <DarkDatabendHorizontalSvg :width="400"></DarkDatabendHorizontalSvg>
+      <LightDatabendHorizontalSvg width="20%"></LightDatabendHorizontalSvg>
       <DarkDatabendVerticalSvg></DarkDatabendVerticalSvg>
       <LightDatabendVerticalSvg></LightDatabendVerticalSvg>
       <DarkDatabendHorizontalPng></DarkDatabendHorizontalPng>
